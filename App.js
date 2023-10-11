@@ -1,9 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Home from './src/screens/Home/Home';
+import { Home } from './src/screens';
+import { Products } from './src/screens';
 
 export default function App() {
-  return <Home />
-  
+  return (
+        <Products category={"mens-watches"} />
+  )
 }
 

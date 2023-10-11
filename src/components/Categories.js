@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import dataCategories from "../data/dataCategories";
-import CategoryItem from "./CategoryItem";
+import CategoryItem from "../screens/Home/components/CategoryItem/CategoryItem";
 
 
 const Categories = () => {
